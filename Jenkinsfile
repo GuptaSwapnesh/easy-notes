@@ -12,6 +12,7 @@ pipeline {
         stage('Test') {
           steps {
             mail(subject: 'Easy Notes Test Result', body: 'Testing done for Easy Notes Application', from: 'guptaswapnesh85@gmail.com', to: 'guptaswapnesh85@gmail.com')
+            echo 'Tesing Easy Notes'
           }
         }
 
